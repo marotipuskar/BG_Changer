@@ -1,0 +1,59 @@
+body{
+    background-color: aqua;
+}
+.mdiv1{
+    width: 360px;
+    margin-left: 610px;
+    /* text-align: center; */
+    margin-top: 600px;
+    border: 5px solid whitesmoke;
+    border-radius: 50px;
+}
+.Span1:hover{
+    /* width: 500px; */
+    /* height: 500px; */
+    color: deeppink;
+    
+
+}
+
+/* .Bgh1:hover{
+    color: deeppink;
+
+} */
+.Bgh1{
+    color: darkorange;
+    width: 300px;
+}
+
+/* #red{
+    border: 2px solid red;
+} */
+#Red:hover{
+    background-color: red;
+    /* background-color: ; */
+}
+/* #White{
+    border: 2px solid white;
+} */
+#White:hover{
+    background-color: white;
+}
+#Black:hover{
+    background-color: black;
+}
+#Orchid:hover{
+    background-color: orchid;
+}
+/* #Green{
+    border: 2px solid green;
+} */
+#Green:hover{
+    background-color: green;
+}
+/* #Blue{
+    border: 2px solid blue;
+} */
+#Blue:hover{
+    background-color: blue;
+}
