@@ -10,6 +10,9 @@
     <center>
         <a href="index.html" class="Bgh1"> <h1> <span class="Span1">B</span> <span class="Span1">G</span> <span></span> <span class="Span1">C</span> <span class="Span1">H</span> <span class="Span1">A</span> <span class="Span1">N</span> <span class="Span1">G</span> <span class="Span1">E</span> <span class="Span1">R</span> </h1></a>
     </center>
+
+    <p class="bottom-text" id="dynamicText"></p>
+
     <div class="mdiv1">
         <button id="Red" style="margin-left: 8px;" onclick="myfunction()">
             red
@@ -26,27 +29,75 @@
     <script >
         function myfunction(){
             document.getElementById("b1").style.backgroundColor="red";
+            document.getElementById("dynamicText").textContent="Changing color, please wait...";
+            setInterval(function changeBG(){
+                document.getElementById("b1").style.backgroundColor="aqua";
+                document.getElementById("dynamicText").textContent="";
+
+                
+            }, 3000);
         }
         
         function myfunction1(){
             document.getElementById("b1").style.backgroundColor="white"
+            document.getElementById("dynamicText").textContent="Changing color, please wait...";
+            document.getElementById("dynamicText").style.color = "black";
+
+            setInterval(function changeBG(){
+                document.getElementById("b1").style.backgroundColor="aqua";
+                document.getElementById("dynamicText").textContent="";
+
+                
+            }, 3000);
 
         }
         function myfunction2(){
             document.getElementById("b1").style.backgroundColor="green";
+            document.getElementById("dynamicText").textContent="Changing color, please wait...";
+            setInterval(function changeBG(){
+                document.getElementById("b1").style.backgroundColor="aqua";
+                document.getElementById("dynamicText").textContent="";
+
+                
+            }, 3000);
         }
         
         function myfunction3(){
             document.getElementById("b1").style.backgroundColor="blue"
+            document.getElementById("dynamicText").textContent="Changing color, please wait...";
+            document.getElementById("dynamicText").style.color = "white";
+
+
+            setInterval(function changeBG(){
+                document.getElementById("b1").style.backgroundColor="aqua";
+                document.getElementById("dynamicText").textContent="";
+
+                
+            }, 3000);
 
         }
         function myfunction4(){
             document.getElementById("b1").style.backgroundColor="black"
+            document.getElementById("dynamicText").textContent="Changing color, please wait...";
+            document.getElementById("dynamicText").color='white';
+            setInterval(function changeBG(){
+                document.getElementById("b1").style.backgroundColor="aqua";
+                document.getElementById("dynamicText").textContent="";
 
+                
+            }, 3000);
         }
         function myfunction5(){
             document.getElementById("b1").style.backgroundColor="orchid"
+            document.getElementById("dynamicText").textContent="Changing color, please wait...";
+            document.getElementById("dynamicText").style.color = "black";
 
+            setInterval(function changeBG(){
+                document.getElementById("b1").style.backgroundColor="aqua";
+                document.getElementById("dynamicText").textContent="";
+
+                
+            }, 3000);
         }
     </script>
     
